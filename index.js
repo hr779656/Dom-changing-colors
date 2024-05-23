@@ -6,7 +6,7 @@ function openTab(event, tabName) {
 
     var tabButtons = document.getElementsByClassName('tab-button');
     for (var i = 0; i < tabButtons.length; i++) {
-        tabButtons[i].className = tabButtons[i].className.replace(' active', '');
+        tabButtons[i].className = tabButtons[i].className.replace('active', '');
     }
 
     document.getElementById(tabName).style.display = 'block';
